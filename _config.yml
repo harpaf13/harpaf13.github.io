@@ -21,6 +21,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: condensedmatter
 github_username:  harpaf13
+#bitbucket_username: harpaf13
+#TCM_website: http://www.tcm.phy.cam.ac.uk/profiles/afh41/
+#scholar_id: raJAdOUAAAAJ&hl
+#linkedin_username: angela.f.harper
+
 
 # Build settings
 markdown: kramdown
@@ -29,13 +34,14 @@ plugins:
   - jekyll-feed
 
 header_pages:
- - news/index.html
- - group/index.html
- - research.md
- - publications/index.md
- - projects.md
- - outreach.md
- - teaching.md
+  - about.md
+# - news/index.html
+# - group/index.html
+# - research.md
+# - publications/index.md
+# - projects.md
+# - outreach.md
+# - teaching.md
 
 #defaults:
 #  -

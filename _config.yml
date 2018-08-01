@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Angela F. Harper
 email: afh41@cam.ac.uk
-description: > #This means to ifnore blah
-    PhD Candidate in the Theory of Condensed Matter Group, Cavendish Laboratory, University of Cambridge
+description: PhD Candidate in the Theory of Condensed Matter Group, Cavendish Laboratory, University of Cambridge
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: condensedmatter
@@ -30,12 +29,12 @@ github_username:  harpaf13
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 header_pages:
 # - news/index.html
- - publications.md
+  - publications.md
 # - presentations.md
 # - research.md
 # - outreach.md
@@ -54,9 +53,9 @@ header_pages:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/

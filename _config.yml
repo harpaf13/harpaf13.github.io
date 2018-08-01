@@ -34,12 +34,10 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - about.md
 # - news/index.html
-# - group/index.html
+ - publications.md
+# - presentations.md
 # - research.md
-# - publications/index.md
-# - projects.md
 # - outreach.md
 # - teaching.md
 

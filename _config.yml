@@ -33,7 +33,7 @@ theme: minima
 #  - jekyll-feed
 
 header_pages:
-# - news/index.html
+  - news/index.html
   - publications.md
 # - presentations.md
 # - research.md

@@ -1,0 +1,18 @@
+---
+---
+
+.news_box {
+    float: center;
+    background-color: lightgrey;
+    width: 100%;
+    border-top: 10px solid #990033;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.responsive {
+    max-width: 150px;
+    height: auto;
+    width: 100%;
+}

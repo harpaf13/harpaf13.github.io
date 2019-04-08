@@ -18,7 +18,7 @@ email: afh41@cam.ac.uk
 description: PhD Candidate in the Theory of Condensed Matter Group, Cavendish Laboratory, University of Cambridge
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: condensedmatter
+twitter_username: harpaf13
 github_username:  harpaf13
 #bitbucket_username: harpaf13
 #TCM_website: http://www.tcm.phy.cam.ac.uk/profiles/afh41/
@@ -35,10 +35,10 @@ theme: minima
 header_pages:
   - news/index.html
   - publications.md
-# - presentations.md
+  - presentations.md
 # - research.md
 # - outreach.md
-# - teaching.md
+  - teaching.md
 
 #defaults:
 #  -

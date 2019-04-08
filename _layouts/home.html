@@ -20,7 +20,7 @@ For more information check out my <a href="/images/afh-cv.pdf">CV</a> or <a href
 
 {% assign posts = site.posts | where_exp: "post", "post.categories contains 'selected'" %}
 
-{% for post in posts limit:4 %}
+{% for post in posts limit:3 %}
 
 <div class="post">
 {% include news_box.html url=post.url date=post.date title=post.title photo=post.photo position=post.position content=post.content %}

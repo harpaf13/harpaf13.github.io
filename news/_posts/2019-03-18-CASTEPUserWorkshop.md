@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "First Place Poster Prize at the CASTEP Users Meeting Birmingham, UK"
 date:   2018-08-23 00:00:00 +0100
 categories: selected

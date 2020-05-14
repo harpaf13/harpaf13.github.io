@@ -15,11 +15,13 @@
 # in the templates via {{ site.myvariable }}.
 title: Angela F. Harper
 email: afh41@cam.ac.uk
+author: Angela F Harper
 description: PhD Candidate in the Theory of Condensed Matter Group, Cavendish Laboratory, University of Cambridge
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: harpaf13
-github_username:  harpaf13
+copyright: 'Copyright &copy; 2020 Angela Harper. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
 #bitbucket_username: harpaf13
 #TCM_website: http://www.tcm.phy.cam.ac.uk/profiles/afh41/
 #scholar_id: raJAdOUAAAAJ&hl
@@ -28,36 +30,16 @@ github_username:  harpaf13
 
 # Build settings
 markdown: kramdown
-theme: minima
-#plugins:
-#  - jekyll-feed
+permalink : pretty
 
-header_pages:
-  - news/index.html
-  - publications.md
-  - presentations.md
-# - research.md
-# - outreach.md
-  - teaching.md
+social:
+    - title: twitter
+      url: https://twitter.com/harpaf13
+    - title: google
+      url: https://scholar.google.co.uk/citations?user=raJAdOUAAAAJ&hl=en#
+    - title: linkedin
+      url: www.linkedin.com/in/angela-f-harper
 
-#defaults:
-#  -
-#    scope:
-#      path: "_slides" 
-#    values:
-#      layout: "iframe"
-
-#collections:
-#  slides:
-#    output: true
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

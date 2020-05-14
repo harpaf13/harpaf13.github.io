@@ -1,14 +1,21 @@
+# Angela F. Harper Personal Website
+This is the personal website for Angela F. Harper, created using Jekyll and Github Pages. 
 
-This is the personal website for Angela F. Harper, created using Jekyll and Github Pages. It is currently under construction.
+Bootstrapping added with the [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/).
 
-# To-do
+## License
+The contents of this repository are licensed under the [Apache
+2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
-* add news section and add to front page
-* add research descriptions of projects from past
-* add oureach from college and women in stem
-* add teaching experience from college
+## Version
+1.0.1
 
-# Done
+#TODO
 
-* publications section
-* homepage front matter
+- add MMM hub poster
+- add CUW news
+- add Materials Research Society cncelled conference
+- add two new papers
+- add better/more pictures
+- add teaching/tutoring of new students
+- add CUSPE work

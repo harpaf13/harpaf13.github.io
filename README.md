@@ -19,3 +19,4 @@ The contents of this repository are licensed under the [Apache
 - add better/more pictures
 - add teaching/tutoring of new students
 - add CUSPE work
+- add molssi course, parallel course

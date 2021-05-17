@@ -21,4 +21,5 @@ The contents of this repository are licensed under the [Apache
 - add CUSPE work
 - add molssi course, parallel course
 - add grants e.g. RAP and Athena and how much theyre worth
-- talk at oxford group
+- talk at oxford group ?? figure out what this is
+- fix talks page at bottom of publications

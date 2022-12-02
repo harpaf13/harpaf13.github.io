@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Angela F. Harper
-email: afh41@cam.ac.uk
+email: harper@fhi.mpg.de
 author: Angela F Harper
-description: PhD Candidate in the Theory of Condensed Matter Group, Cavendish Laboratory, University of Cambridge
+description: Alexander von Humboldt Fellow, Fritz Haber Institut, Berlin, Germany. PhD in Physics from Cambridge
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 copyright: 'Copyright &copy; 2020 Angela Harper. All Rights Reserved.'
@@ -34,7 +34,7 @@ permalink : pretty
 
 social:
     - title: twitter
-      url: https://twitter.com/physics_ang
+      url: https://twitter.com/physics_ange
     - title: google
       url: https://scholar.google.co.uk/citations?user=raJAdOUAAAAJ&hl=en#
     - title: linkedin
@@ -43,3 +43,5 @@ social:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+exclude: [vendor]
